@@ -1,6 +1,13 @@
 let num = 10;
 let string = "";
-
+/*
+Printing patter:-
+    *    
+   ***   
+  *****   
+ ******* 
+*********
+*/
 function print(num) {
     //loop for number of rows
   for (let i = 0; i < num; i++) {
