@@ -5,8 +5,8 @@ function print(n) {
     for (let j = 1; j <= n; j++) {
       string += "* ";
     }
-    console.log(string);
-    string = "";
+    string += "\n";
 }
+  return string;
 }
-print(n);
+console.log(print(n));
