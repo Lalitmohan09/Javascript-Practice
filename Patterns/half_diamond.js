@@ -1,6 +1,7 @@
 const num = 6;
 let string = "";
 
+//Function to print pattern
 function print(num) {
   for (let i = 1; i <= num * 2 - 1; i++) {
     let temp = i;
