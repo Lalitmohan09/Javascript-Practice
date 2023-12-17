@@ -1,5 +1,14 @@
 let num = 5;
 let string = "";
+/*
+print right angled triangle star
+*
+**
+***
+****
+*****
+
+*/
 
 function print(num) {
   for (let i = 1; i <= num; i++) {
